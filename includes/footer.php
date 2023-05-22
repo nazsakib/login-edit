@@ -2,7 +2,6 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-md-4">
-        <h5>Go to <a href="admin.php">Admin</a> page!</h5>
         <p>All rights reserved &copy; Sakib, 2023.</p>
       </div>
     </div>
