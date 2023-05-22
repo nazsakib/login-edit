@@ -1,6 +1,9 @@
 <!-- navbar -->
 
 <div class="bg-dark">
+    <h5 class="bg-warning py-2 text-center text-white w-100">Go to <a class="text-dark text-uppercase"
+            href="admin.php">Admin</a> page!
+    </h5>
     <div class="container">
         <div class="row">
             <div class="col-md-12">
