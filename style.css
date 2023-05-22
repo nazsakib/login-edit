@@ -1,0 +1,54 @@
+a {
+    text-decoration: none;
+    color: hotpink;
+}
+
+.error {
+    color: red;
+}
+.logout {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin: 20px 0;
+}
+.logout a {
+    color: #fff;
+    text-decoration: none;
+    background-color: crimson;
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 25px;
+}
+
+/* index.php */
+.pages {
+    padding: 0;
+}
+.pages ul {
+    list-style: none;
+    padding: 0;
+}
+.pages ul li {
+    padding: 0;
+}
+.pages ul li a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 10px 25px;
+    background-color: cadetblue;
+    margin: 5px 0;
+    transition: 0.3s;
+}
+.pages ul li a:hover {
+    background-color: darkcyan;
+}
+
+.pagetop ul li {
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.content {
+    margin: auto;
+}
