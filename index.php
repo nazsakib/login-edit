@@ -42,11 +42,14 @@ while ($information = mysqli_fetch_assoc($query)) {
 <body>
 
     <div class="pagetop">
+        <h5 class="bg-warning py-2 text-center text-white w-100 m-0">Go to <a class="text-dark text-uppercase"
+                href="admin.php">Admin</a> page!
+        </h5>
         <div class="row bg-dark text-white p-3 navbar navbar-expand-lg">
             <div class="col-md-4">
                 <p>MySQL and PHP</p>
             </div>
-            <div class="col-md-8 text-end link">
+            <div class="col-md-8 text-end link mr-5">
                 <ul class="list-unstyled text-end mb-2 mb-lg-0 mr-2">
                     <?php
                     $query = mysqli_query($connection, "SELECT * FROM pages ORDER BY id DESC");
